@@ -1,0 +1,59 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port OUT_LED -pg 1 -y 160 -defaultsOSRD
+preplace port DDR -pg 1 -y 340 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 360 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -y 750 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 3 -y 550 -defaultsOSRD
+preplace inst axi_mem_intercon_1 -pg 1 -lvl 4 -y 410 -defaultsOSRD
+preplace inst axi_dma_1 -pg 1 -lvl 3 -y 380 -defaultsOSRD
+preplace inst system_ila -pg 1 -lvl 8 -y 540 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -y 600 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 6 -y 210 -defaultsOSRD
+preplace inst Fake_Buffer_0 -pg 1 -lvl 8 -y 180 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 4 -y 170 -defaultsOSRD
+preplace inst baseLocalPlanner_1_0 -pg 1 -lvl 7 -y 130 -defaultsOSRD
+preplace inst ps7_0_axi_periph_1 -pg 1 -lvl 2 -y 510 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -y 430 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 5 4 NJ 340 NJ 340 2600J 350 2980J
+preplace netloc baseLocalPlanner_1_0_db_path_goal_cost 1 7 1 2610
+preplace netloc baseLocalPlanner_1_0_db_cell_x 1 7 1 2660
+preplace netloc baseLocalPlanner_1_0_path_dist_port 1 7 1 2540
+preplace netloc baseLocalPlanner_1_0_db_occ_out_test 1 7 1 2560
+preplace netloc baseLocalPlanner_1_0_db_cell_y 1 7 1 2650
+preplace netloc axi_dma_1_M_AXIS_MM2S 1 3 4 1000 50 NJ 50 NJ 50 2090J
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 370 20 NJ 20 NJ 20 NJ 20 1750
+preplace netloc axi_mem_intercon_1_M00_AXI 1 4 1 N
+preplace netloc axi_dma_1_M_AXI_MM2S 1 3 1 N
+preplace netloc baseLocalPlanner_1_0_db_fpc_cost_rdy 1 7 1 2570
+preplace netloc processing_system7_0_M_AXI_GP1 1 5 1 1780
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 6 20 10 NJ 10 NJ 10 NJ 10 NJ 10 1760
+preplace netloc axi_mem_intercon_M00_AXI 1 4 1 1330
+preplace netloc baseLocalPlanner_1_0_goal_dist_port 1 7 1 2530
+preplace netloc baseLocalPlanner_1_0_db_fpc_cost 1 7 1 2630
+preplace netloc baseLocalPlanner_1_0_db_fpc_start 1 7 1 2640
+preplace netloc rst_ps7_0_50M_interconnect_aresetn 1 1 5 350 770 NJ 770 1020 770 NJ 770 1790
+preplace netloc axi_dma_0_M_AXI_MM2S 1 3 1 1010
+preplace netloc xlconcat_0_dout 1 4 1 1330
+preplace netloc processing_system7_0_FIXED_IO 1 5 4 NJ 360 NJ 360 NJ 360 NJ
+preplace netloc ps7_0_axi_periph_1_M01_AXI 1 2 1 640
+preplace netloc baseLocalPlanner_1_0_db_cost_total 1 7 1 2590
+preplace netloc axi_dma_0_mm2s_introut 1 3 1 990
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 6 370 790 670 790 1040 790 NJ 790 1800 790 2110
+preplace netloc ps7_0_axi_periph_1_M00_AXI 1 2 1 650
+preplace netloc baseLocalPlanner_1_0_db_config_tg_start 1 7 1 2550
+preplace netloc baseLocalPlanner_1_0_db_theta_out_test 1 7 1 2580
+preplace netloc Fake_Buffer_0_out_rdy 1 8 1 2980
+preplace netloc baseLocalPlanner_1_0_db_path_dist_map_add 1 7 1 2620
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 8 30 130 360 130 660 130 1030 530 1320 580 1770 90 2080 410 N
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 3 4 NJ 540 1310J 70 NJ 70 NJ
+preplace netloc ps7_0_axi_periph_M00_AXI 1 6 1 2100
+preplace netloc axi_dma_1_mm2s_introut 1 3 1 1000
+levelinfo -pg 1 0 190 510 830 1180 1540 1950 2320 2830 3000 -top -40 -bot 1300
+",
+}
+{
+   da_axi4_cnt: "5",
+   da_ps7_cnt: "1",
+}

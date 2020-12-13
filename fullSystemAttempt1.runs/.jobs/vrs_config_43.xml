@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_baseLocalPlanner_1_0_0_synth_1" LaunchDir="C:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.runs/design_1_baseLocalPlanner_1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_Fake_Buffer_0_0_synth_1" LaunchDir="C:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.runs/design_1_Fake_Buffer_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_system_ila_0_synth_1" LaunchDir="C:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.runs/design_1_system_ila_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<POWERDATA author="Vivado Power Analysis" dataVersion="2016.4" design="Xilinx Design" date="Tue Jan 07 00:53:04 2020">
+	<ENVIRONMENT>
+		<DEVICE part="xc7z020" grade="commercial" package="clg484" speed="-1" process="typical" vid="No">
+		</DEVICE>
+		<VOLTAGESOURCES>
+			<SOURCE name="Vcco25" voltage="2.500000" icc="0.000000" iccq="0.001000" power="0.002500">
+			</SOURCE>
+			<SOURCE name="Vcco18" voltage="1.800000" icc="0.000000" iccq="0.001000" power="0.001800">
+			</SOURCE>
+			<SOURCE name="Vcco15" voltage="1.500000" icc="0.000000" iccq="0.001000" power="0.001500">
+			</SOURCE>
+			<SOURCE name="Vccbram" voltage="1.000000" icc="0.000403" iccq="0.002006" power="0.002409">
+			</SOURCE>
+			<SOURCE name="Vccint" voltage="1.000000" icc="0.066522" iccq="0.016199" power="0.082721">
+			</SOURCE>
+			<SOURCE name="Vccaux" voltage="1.800000" icc="0.000000" iccq="0.020715" power="0.037287">
+			</SOURCE>
+			<SOURCE name="Vccpint" voltage="1.000000" icc="0.718741" iccq="0.031321" power="0.750062">
+			</SOURCE>
+			<SOURCE name="Vccpaux" voltage="1.800000" icc="0.073452" iccq="0.010330" power="0.150807">
+			</SOURCE>
+			<SOURCE name="Vccpll" voltage="1.800000" icc="0.013878" iccq="0.003000" power="0.030380">
+			</SOURCE>
+			<SOURCE name="Vcco_ddr" voltage="1.500000" icc="0.456904" iccq="0.002000" power="0.688355">
+			</SOURCE>
+			<SOURCE name="Vcco_mio0" voltage="1.800000" icc="0.001750" iccq="0.001000" power="0.004950">
+			</SOURCE>
+			<SOURCE name="Vcco_mio1" voltage="1.800000" icc="0.000593" iccq="0.001000" power="0.002868">
+			</SOURCE>
+			<SOURCE name="Vccadc" voltage="1.800000" icc="0.000000" iccq="0.020000" power="0.036000">
+			</SOURCE>
+		</VOLTAGESOURCES>
+		<THERMAL>
+			<AMBIENT value="25.000000">
+			</AMBIENT>
+			<AIRFLOW value="250.000000">
+			</AIRFLOW>
+			<HEATSINK value="none">
+			</HEATSINK>
+			<BOARDSELECTION value="medium (10&quot;x10&quot;)">
+			</BOARDSELECTION>
+			<BOARDLAYERS value="8to11 (8 to 11 Layers)">
+			</BOARDLAYERS>
+			<TSA value="0.000000">
+			</TSA>
+			<TJB value="7.400000">
+			</TJB>
+			<BOARDTEMP value="25.0 (C)">
+			</BOARDTEMP>
+			<JUNCTION value="45.7 (C)">
+			</JUNCTION>
+		</THERMAL>
+	</ENVIRONMENT>
+	<BLOCKDETAILS>
+		<BYTYPE>
+			<BLOCKTYPE name="Clocks">
+				<CLOCK name="design_1_i/processing_system7_0/inst/FCLK_CLK0" freq="25.000000" belFanout="9745" sliceFanout="2942" FoPerSite="3.312373" sliceEnableRate="0.340965" leafs="101.000000" hrows="5.000000" power="0.007489" enableRate="1" bufType="BUFG">
+				</CLOCK>
+				<CLOCK name="dbg_hub/inst/itck_i" freq="30.303031" belFanout="382" sliceFanout="107" FoPerSite="3.570093" sliceEnableRate="0.514923" leafs="15.000000" hrows="2.000000" power="0.000912" enableRate="1" bufType="BUFG">
+				</CLOCK>
+			</BLOCKTYPE>
+			<BLOCKTYPE name="LOGIC">
+				<LOGIC clock="Unclocked_or_HFN_instance" clockFreq="25.000000" clockFreq2="25.000000" toggleRate="16.564680" toggleRate2="17.073893" totalRate="2291.780386" name="clk_fpga_0" hierName="design_1_wrapper/dbg_hub" writeRate="0.000000" enableRate="0.000000" fanout="4.560976" ru="5.736540" fanout2="4.370370" totalFanout="374.000000" fanoutRate="256.108866" numNets="224" extNets="82" carry4s="10" luts="156" logicCap="45391400" signalCap="23190.000000" power="0.000074" sp="0.000018">
+				</LOGIC>
+				<LOGIC clock="Unclocked_or_HFN_instance" clockFreq="30.303031" clockFreq2="30.303031" toggleRate="10.725588" toggleRate2="15.197428" totalRate="1470.428595" name="dbg_hub/inst/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK" hierName="design_1_wrapper/dbg_hub" writeRate="0.000000" enableRate="0.000000" fanout="5.042254" ru="3.515689" fanout2="3.633333" totalFanout="358.000000" fanoutRate="197.553530" numNets="210" extNets="71" SMUX="1" carry4s="2" luts="181" logicCap="64373301" signalCap="21804.000000" power="0.000116" sp="0.000012">
+				</LOGIC>
+				<LOGIC clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" clockFreq2="25.000000" toggleRate="0.725172" toggleRate2="18.322584" totalRate="18.322584" name="clk_fpga_0" hierName="design_1_wrapper/dbg_hub" writeRate="0.060223" enableRate="0.000000" fanout="1.000000" ru="11.583301" fanout2="1.000000" totalFanout="16.000000" fanoutRate="2.776149" numNets="24" extNets="16" RAM="12" logicCap="809000" signalCap="4062.000000" power="0.000001" sp="0.000000">
+				</LOGIC>
+				<LOGIC clock="dbg_hub/inst/itck_i" clockFreq="30.303031" clockFreq2="30.303031" toggleRate="0.000000" toggleRate2="0.000000" totalRate="0.000000" name="dbg_hub/inst/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK" hierName="design_1_wrapper/dbg_hub" writeRate="0.058380" enableRate="0.000000" fanout="1.000000" ru="8.702088" fanout2="0.000000" totalFanout="16.000000" fanoutRate="0.000000" numNets="24" extNets="16" RAM="12" logicCap="0" signalCap="3411.000000" power="0.000000" sp="0.000000">
+				</LOGIC>
+				<LOGIC clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" clockFreq2="25.000000" toggleRate="2.559745" toggleRate2="8.675489" totalRate="673.213054" name="clk_fpga_0" hierName="design_1_wrapper/dbg_hub" writeRate="0.000000" enableRate="0.762535" fanout="3.710938" ru="9.701049" fanout2="5.306667" totalFanout="950.000000" fanoutRate="532.254551" numNets="263" extNets="256" ffs="263" logicCap="3780000" signalCap="86580.000000" power="0.000004" sp="0.000038">
+				</LOGIC>
+				<LOGIC clock="dbg_hub/inst/itck_i" clockFreq="30.303031" clockFreq2="30.303031" toggleRate="3.892815" toggleRate2="13.150057" totalRate="1389.735084" name="dbg_hub/inst/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK" hierName="design_1_wrapper/dbg_hub" writeRate="0.000000" enableRate="0.548181" fanout="3.481159" ru="9.831010" fanout2="4.294118" totalFanout="1201.000000" fanoutRate="960.087169" numNets="357" extNets="345" ffs="357" logicCap="6210000" signalCap="119891.000000" power="0.000009" sp="0.000080">
+				</LOGIC>
+				<LOGIC clock="Unclocked_or_HFN_instance" clockFreq="30.303031" clockFreq2="1.170167" toggleRate="3.328924" toggleRate2="0.000000" totalRate="0.000000" name="Unassigned_Clock" hierName="design_1_wrapper/dbg_hub" writeRate="0.000000" enableRate="0.000000" fanout="1.760000" ru="0.358864" fanout2="0.000000" totalFanout="44.000000" fanoutRate="0.000000" numNets="29" extNets="25" luts="29" logicCap="12149301" signalCap="4145.000000" power="0.000007" sp="0.000000">
+				</LOGIC>
+				<LOGIC clock="Unclocked_or_HFN_instance" clockFreq="30.303031" clockFreq2="0.635353" toggleRate="1.048333" toggleRate2="2.096666" totalRate="2.096666" name="High_Fanout_Nets" hierName="design_1_wrapper/dbg_hub" writeRate="0.000000" enableRate="1.000000" fanout="109.500000" ru="21.643528" fanout2="57.000000" totalFanout="219.000000" fanoutRate="18.107567" numNets="2" extNets="2" ffs="2" logicCap="45000" signalCap="9437.000000" power="0.000000" sp="0.000001">
+				</LOGIC>
+				<LOGIC clock="Unclocked_or_HFN_instance" clockFreq="25.000000" clockFreq2="25.000000" toggleRate="32.082160" toggleRate2="25.313609" totalRate="610470.179835" name="clk_fpga_0" hierName="design_1_wrapper/design_1_i" writeRate="0.000000" enableRate="0.000000" fanout="2.954965" ru="8.117935" fanout2="2.800518" totalFanout="35498.000000" fanoutRate="93677.793290" numNets="23743" extNets="12013" SMUX="1022" carry4s="1620" luts="14230" logicCap="6679622885" signalCap="3969631.000000" power="0.017925" sp="0.012199">
+				</LOGIC>
+				<LOGIC clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" clockFreq2="25.000000" toggleRate="0.554750" toggleRate2="5.470053" totalRate="602.287059" name="clk_fpga_0" hierName="design_1_wrapper/design_1_i" writeRate="0.000000" enableRate="0.260791" fanout="1.779116" ru="4.456917" fanout2="2.000000" totalFanout="443.000000" fanoutRate="15.845308" numNets="934" extNets="249" SRL="494" logicCap="68052001" signalCap="77087.000000" power="0.000022" sp="0.000003">
+				</LOGIC>
+				<LOGIC clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" clockFreq2="25.000000" toggleRate="0.000029" toggleRate2="0.000000" totalRate="0.000285" name="clk_fpga_0" hierName="design_1_wrapper/design_1_i" writeRate="0.095461" enableRate="0.000000" fanout="1.000000" ru="4.771213" fanout2="0.000000" totalFanout="2.000000" fanoutRate="0.000018" numNets="4" extNets="2" RAM="4" logicCap="0" signalCap="314.000000" power="0.000000" sp="0.000000">
+				</LOGIC>
+				<LOGIC clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" clockFreq2="25.000000" toggleRate="2.434584" toggleRate2="7.030575" totalRate="20784.041921" name="clk_fpga_0" hierName="design_1_wrapper/design_1_i" writeRate="0.000000" enableRate="0.359124" fanout="4.215217" ru="11.323737" fanout2="4.792244" totalFanout="35901.000000" fanoutRate="13383.911606" numNets="8537" extNets="8517" ffs="8537" logicCap="192329999" signalCap="4462505.000000" power="0.000117" sp="0.001413">
+				</LOGIC>
+				<LOGIC clock="Unclocked_or_HFN_instance" clockFreq="30.303031" clockFreq2="3.787879" toggleRate="1.250000" toggleRate2="12.500000" totalRate="12.500000" name="Unassigned_Clock" hierName="design_1_wrapper/design_1_i" writeRate="0.000000" enableRate="0.000000" fanout="0.000000" ru="0.000000" fanout2="0.000000" totalFanout="0.000000" fanoutRate="0.000000" numNets="10" extNets="0" luts="10" logicCap="297500" signalCap="0.000000" power="0.000001" sp="0.000000">
+				</LOGIC>
+				<LOGIC clock="Unclocked_or_HFN_instance" clockFreq="30.303031" clockFreq2="4.803628" toggleRate="12.833366" toggleRate2="19.494789" totalRate="3091.299869" name="High_Fanout_Nets" hierName="design_1_wrapper/design_1_i" writeRate="0.000000" enableRate="0.790311" fanout="115.027322" ru="24.675882" fanout2="111.561644" totalFanout="21050.000000" fanoutRate="45788.778820" numNets="183" extNets="183" carry4s="10" ffs="70" luts="103" logicCap="42264801" signalCap="1363541.000000" power="0.000099" sp="0.003163">
+				</LOGIC>
+			</BLOCKTYPE>
+			<BLOCKTYPE name="BRAM">
+				<MODULE name="design_1_i/processing_system7_0/inst/FCLK_CLK0" count="6">
+					<GROUPSUMMARY>
+						<BRAM name="design_1_i/processing_system7_0/inst/FCLK_CLK0" hierName="design_1_wrapper/design_1_i" mode="RAMB18SDP" toggleRate="20.746142" power="0.002554" sp="0.000628" vccbram="0.000055" vccint="0.002499">
+							<RAMPORT name="A" clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" readWidth="36" writeWidth="0" enableRate="0.999999" writeMode="READ_FIRST" writeRate="0.000000">
+							</RAMPORT>
+							<RAMPORT name="B" clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" readWidth="0" writeWidth="36" enableRate="0.000981" writeMode="READ_FIRST" writeRate="0.001432">
+							</RAMPORT>
+						</BRAM>
+					</GROUPSUMMARY>
+				</MODULE>
+				<MODULE name="design_1_i/processing_system7_0/inst/FCLK_CLK0" count="5">
+					<GROUPSUMMARY>
+						<BRAM name="design_1_i/processing_system7_0/inst/FCLK_CLK0" hierName="design_1_wrapper/design_1_i" mode="RAMB36" toggleRate="1.038457" power="0.001580" sp="0.000000" vccbram="0.000100" vccint="0.001480">
+							<RAMPORT name="A" clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" readWidth="36" writeWidth="36" enableRate="0.499741" writeMode="READ_FIRST" writeRate="1.000000">
+							</RAMPORT>
+							<RAMPORT name="B" clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" readWidth="36" writeWidth="36" enableRate="0.000000" writeMode="READ_FIRST" writeRate="0.000000">
+							</RAMPORT>
+						</BRAM>
+					</GROUPSUMMARY>
+				</MODULE>
+				<MODULE name="design_1_i/processing_system7_0/inst/FCLK_CLK0" count="6">
+					<GROUPSUMMARY>
+						<BRAM name="design_1_i/processing_system7_0/inst/FCLK_CLK0" hierName="design_1_wrapper/design_1_i" mode="RAMB36" toggleRate="0.030602" power="0.002655" sp="0.000001" vccbram="0.000246" vccint="0.002409">
+							<RAMPORT name="A" clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" readWidth="36" writeWidth="36" enableRate="0.000981" writeMode="READ_FIRST" writeRate="0.001454">
+							</RAMPORT>
+							<RAMPORT name="B" clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" readWidth="36" writeWidth="36" enableRate="0.999999" writeMode="WRITE_FIRST" writeRate="0.000000">
+							</RAMPORT>
+						</BRAM>
+					</GROUPSUMMARY>
+				</MODULE>
+				<MODULE name="design_1_i/processing_system7_0/inst/FCLK_CLK0" count="2">
+					<GROUPSUMMARY>
+						<BRAM name="design_1_i/processing_system7_0/inst/FCLK_CLK0" hierName="design_1_wrapper/design_1_i" mode="RAMB36SDP" toggleRate="0.496145" power="0.000081" sp="0.000000" vccbram="0.000002" vccint="0.000079">
+							<RAMPORT name="A" clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" readWidth="72" writeWidth="0" enableRate="0.053870" writeMode="READ_FIRST" writeRate="0.000000">
+							</RAMPORT>
+							<RAMPORT name="B" clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" clockFreq="25.000000" readWidth="0" writeWidth="72" enableRate="0.000001" writeMode="READ_FIRST" writeRate="0.000001">
+							</RAMPORT>
+						</BRAM>
+					</GROUPSUMMARY>
+				</MODULE>
+			</BLOCKTYPE>
+			<BLOCKTYPE name="DSP">
+				<MODULE name="design_1_i/processing_system7_0/inst/FCLK_CLK0" count="60">
+					<GROUPSUMMARY>
+						<DSP48E1 name="design_1_i/processing_system7_0/inst/FCLK_CLK0" hierName="design_1_wrapper/design_1_i" clock="design_1_i/processing_system7_0/inst/FCLK_CLK0" toggleRate="39.894531" clockFreq="25.000000" multUsed="Yes" mregUsed="No" preAdderUsed="No" power="0.013477">
+						</DSP48E1>
+					</GROUPSUMMARY>
+				</MODULE>
+			</BLOCKTYPE>
+			<BLOCKTYPE name="IO">
+				<MODULE name="OUT_LED" count="1">
+					<GROUPSUMMARY>
+						<IO name="OUT_LED" clock="clk_fpga_0" clockFreq="25.000000" ioStandard="LVCMOS25_12_SLOW" bidis="0" inputs="0" outputs="1" signalRate="0.000000" toggleRate="0.000000" outputEnableRate="1.000000" outputLoad="0.000000" dataRate="SDR" serdes="No" preEmphasis="No" ioDelay="No" ibufLowPower="No" inTerm="NONE" outTerm="RDRV_NONE_NONE" numHR="1" ibufDisable="0.000000" dcitermDisable="0.000000" vccInt="0.000000" vccAux="0.000000" vcco="0.000000" vccoCurrent="0.000000" extTerm="FP_VTT_50">
+						</IO>
+					</GROUPSUMMARY>
+				</MODULE>
+			</BLOCKTYPE>
+			<BLOCKTYPE name="PS7">
+				<PS7>
+					<PROCESSOR name="system" numA9Cores="2" clockFreq="666.666687" load="0.500000">
+					</PROCESSOR>
+					<MEMORY name="code" memType="DDR3" dataWidth="32" clockFreq="533.333313" readRate="0.500000" writeRate="0.500000">
+					</MEMORY>
+					<GPIO interface="GPIO Bank 1" ioStandard="LVCMOS 1.8V" bidis="10" ioBank="Vcco_p1" clockFreq="1.000000" usageRate="0.500000">
+					</GPIO>
+					<GPIO interface="GPIO Bank 0" ioStandard="LVCMOS 1.8V" bidis="7" ioBank="Vcco_p0" clockFreq="1.000000" usageRate="0.500000">
+					</GPIO>
+					<GPIO interface="UART" ioStandard="LVCMOS 1.8V" bidis="2" ioBank="Vcco_p1" clockFreq="50.000000" usageRate="0.500000">
+					</GPIO>
+					<GPIO interface="USB" ioStandard="LVCMOS 1.8V" bidis="12" ioBank="Vcco_p1" clockFreq="60.000000" usageRate="0.500000">
+					</GPIO>
+					<GPIO interface="GigE" ioStandard="HSTL Class I 1.8V" bidis="14" ioBank="Vcco_p1" clockFreq="25.000000" usageRate="0.500000">
+					</GPIO>
+					<GPIO interface="QSPI" ioStandard="LVCMOS 1.8V" bidis="7" ioBank="Vcco_p0" clockFreq="200.000000" usageRate="0.500000">
+					</GPIO>
+					<PLL domain="Processor" vco="1333.333008">
+					</PLL>
+					<PLL domain="Memory" vco="1066.666992">
+					</PLL>
+					<PLL domain="IO" vco="1000.000000">
+					</PLL>
+					<AXI interface="AXI_HP" width="64" clockFreq="25.000000" usageRate="0.500000">
+					</AXI>
+					<AXI interface="AXI_HP" width="64" clockFreq="25.000000" usageRate="0.500000">
+					</AXI>
+					<AXI interface="AXI_GP" width="32" clockFreq="25.000000" usageRate="0.500000">
+					</AXI>
+					<AXI interface="AXI_GP" width="32" clockFreq="25.000000" usageRate="0.500000">
+					</AXI>
+				</PS7>
+			</BLOCKTYPE>
+			<BLOCKTYPE name="IOBANK">
+				<IOBANK numInternalVref="0" numDelayControl="0" numLVDSBanks="0">
+				</IOBANK>
+			</BLOCKTYPE>
+		</BYTYPE>
+	</BLOCKDETAILS>
+</POWERDATA>
+

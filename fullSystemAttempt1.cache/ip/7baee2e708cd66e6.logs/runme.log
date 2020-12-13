@@ -1,0 +1,140 @@
+
+*** Running vivado
+    with args -log design_1_axi_dma_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_dma_0_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source design_1_axi_dma_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 351.484 ; gain = 141.934
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_dma_0_0' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/synth/design_1_axi_dma_0_0.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'axi_dma' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:21830]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_rst_module' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:1595]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (1#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_reset' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:603]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_reset' (2#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:603]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_rst_module' (3#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:1595]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_reg_module' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:8254]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_lite_if' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:2066]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_lite_if' (4#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:2066]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_register' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:3604]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_register' (5#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:3604]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_reg_module' (6#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:8254]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_mngr' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:14884]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_smple_sm' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:11685]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_smple_sm' (7#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:11685]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_cmdsts_if' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:13668]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_cmdsts_if' (8#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:13668]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_mm2s_sts_mngr' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:13983]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_sts_mngr' (9#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:13983]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_mm2s_mngr' (10#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:14884]
+INFO: [Synth 8-638] synthesizing module 'axi_dma_sofeof_gen' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:11155]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma_sofeof_gen' (11#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:11155]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:48516]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mm2s_full_wrap' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:46666]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_reset' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_reset' (12#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo' (13#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized0' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized0' (13#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status' (14#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_status_cntl' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:13741]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_status_cntl' (15#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:13741]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_pcc' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:7411]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2' (16#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2__parameterized0' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2__parameterized0' (16#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_pcc' (17#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:7411]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized1' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (18#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (19#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (20#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (21#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized1' (21#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl' (22#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rddata_cntl' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:12180]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rdmux' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:10676]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rdmux' (23#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:10676]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized2' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized0' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized0' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized0' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (23#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (23#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized0' (23#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized2' (23#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rddata_cntl' (24#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:12180]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_rd_sf' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:20200]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized3' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized1' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized1' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized1' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized1' (24#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized1' (24#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized1' (24#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized3' (24#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/5ab6/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (53#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/5ab6/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord' (54#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_rd_sf' (55#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:20200]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:19492]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf' (56#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:19492]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_full_wrap' (57#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:46666]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_omit_wrap' [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:42721]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_omit_wrap' (58#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:42721]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (59#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/bf41/hdl/axi_datamover_v5_1_vh_rfs.vhd:48516]
+INFO: [Synth 8-256] done synthesizing module 'axi_dma' (60#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ipshared/46c7/hdl/axi_dma_v7_1_vh_rfs.vhd:21830]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_dma_0_0' (61#1) [c:/Users/User/Documents/Vivado_2016_4/fullSystemAttempt1/fullSystemAttempt1.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/synth/design_1_axi_dma_0_0.vhd:104]
+Finished RTL Elaboration : Time (s): cpu = 00:03:55 ; elapsed = 00:04:14 . Memory (MB): peak = 595.195 ; gain = 385.645
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:56 ; elapsed = 00:04:15 . Memory (MB): peak = 595.195 ; gain = 385.645
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+create_clock: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 732.605 ; gain = 8.184
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 732.605 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:06:22 ; elapsed = 00:08:18 . Memory (MB): peak = 732.605 ; gain = 523.055
+Finished Loading Part and Timing Information : Time (s): cpu = 00:06:22 ; elapsed = 00:08:18 . Memory (MB): peak = 732.605 ; gain = 523.055
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:06:22 ; elapsed = 00:08:18 . Memory (MB): peak = 732.605 ; gain = 523.055
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:06:46 ; elapsed = 00:08:51 . Memory (MB): peak = 732.605 ; gain = 523.055
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:07:06 ; elapsed = 00:09:24 . Memory (MB): peak = 732.605 ; gain = 523.055
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:23 ; elapsed = 00:09:42 . Memory (MB): peak = 732.605 ; gain = 523.055
+Finished Timing Optimization : Time (s): cpu = 00:07:26 ; elapsed = 00:09:45 . Memory (MB): peak = 742.219 ; gain = 532.668
+Finished Technology Mapping : Time (s): cpu = 00:07:27 ; elapsed = 00:09:46 . Memory (MB): peak = 742.219 ; gain = 532.668
+Finished IO Insertion : Time (s): cpu = 00:07:27 ; elapsed = 00:09:47 . Memory (MB): peak = 742.219 ; gain = 532.668
+Finished Renaming Generated Instances : Time (s): cpu = 00:07:27 ; elapsed = 00:09:47 . Memory (MB): peak = 742.219 ; gain = 532.668
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:28 ; elapsed = 00:09:47 . Memory (MB): peak = 742.219 ; gain = 532.668
+Finished Renaming Generated Ports : Time (s): cpu = 00:07:28 ; elapsed = 00:09:47 . Memory (MB): peak = 742.219 ; gain = 532.668
+Finished Handling Custom Attributes : Time (s): cpu = 00:07:28 ; elapsed = 00:09:47 . Memory (MB): peak = 742.219 ; gain = 532.668
+Finished Renaming Generated Nets : Time (s): cpu = 00:07:28 ; elapsed = 00:09:47 . Memory (MB): peak = 742.219 ; gain = 532.668
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    17|
+|2     |LUT1     |    28|
+|3     |LUT2     |    84|
+|4     |LUT3     |   112|
+|5     |LUT4     |   106|
+|6     |LUT5     |    81|
+|7     |LUT6     |   160|
+|8     |MUXCY    |    20|
+|9     |RAMB36E1 |     1|
+|10    |SRL16E   |    59|
+|11    |FDR      |     8|
+|12    |FDRE     |   706|
+|13    |FDSE     |    27|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:07:28 ; elapsed = 00:09:47 . Memory (MB): peak = 742.219 ; gain = 532.668
+synth_design: Time (s): cpu = 00:07:25 ; elapsed = 00:09:40 . Memory (MB): peak = 746.535 ; gain = 479.973
